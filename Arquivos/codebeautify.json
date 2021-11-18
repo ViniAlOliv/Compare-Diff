@@ -1,0 +1,14 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Teste API",
+    "description": "API para fazer um teste de comparação de arquivos",
+    "version": "1"
+  },
+  "servers": [
+    {
+      "url": "http://testetestinho.com.br:80",
+      "description": "Inferred Url"
+    }
+  ]
+}
