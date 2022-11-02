@@ -1,4 +1,4 @@
-# Comparação de arquivos de Swagger, Openapi, documentos e outros
+# Comparação de arquivos de Swagger, Openapi, documentos e outros - Robson!
 
 ## 1) Pegar informações de Swagger:
 
@@ -8,12 +8,13 @@
 - Cole, ao lado esquerdo, todo o objeto (Crtl + V)
 - Clique no botão 'Beautify' e, ao apresentar o resultado ao lado, clique no botão de download (logo acima ao lado de copiar)
 
-- Sendo uma comparação, faça o mesmo com o documento que queira realizar esse compara.
+- Sendo uma comparação, faça o mesmo com o documento que queira realizar essa comparação.
 
 DICA:
 Obtenha o arquivo antes e depois da alteração, ou o de produção e o interno, que provavelmente estará mais atualizado.
 
-### 1 b) Caso não tenha Swagger
+
+### 1 b) Caso não use Swagger
 - Isso funcionará também com um texto. Copie e crie um json, yaml ou txt da melhor forma a atender você.
 
 
@@ -22,16 +23,17 @@ Obtenha o arquivo antes e depois da alteração, ou o de produção e o interno,
 - Instalar Visual Studio Code
 - Pegar o arquivo "Swagger - Openapi Diff" e abrí-lo no Visual Studio Code (Arquivo / Abrir Pasta e selecionar a pasta)
 - Copiar os arquivos .json ou .yaml para dentro da pasta 'Arquivos'
-- Abrir o terminal (Terminar / Novo Terminal) no Menu superior do Visual Studio Code
+- Abrir o terminal (Terminal / Novo Terminal) no Menu superior do Visual Studio Code
 - Verificar se o Terminal foi aberto como 'bash'****. Não pode ser PowerShell e nem Prompt*****
 - Verificar se o terminal está apontando o local correto. Caso contrário, digite 'cd Arquivos'
+
 
 
 ### 2 a) Caso eu queira apresentar a diferença no Visual Studio Code...
 - No explorador, dentro da pasta Arquivos, dê um clique com o botão direito do mouse no arquivo mais antigo e selecione 'Selecionar para comparar'
 - No mesmo local, dê um clique com o botão direito do mouse no arquivo mais novo e selecione 'Selecionar para comparar'
 
-- Ao realizar a ação acima, serão apresentadas as diferenças entre os dois arquivos no Visual Studio Code marcando em vermelho do que foi alterado
+- Ao realizar a ação acima, serão apresentadas as diferenças entre os dois arquivos no Visual Studio Code marcando em vermelho as diferenças.
 
 
 ### 2 b) Caso eu queira apresentar a diferança no Terminal...
