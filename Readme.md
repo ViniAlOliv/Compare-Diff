@@ -1,4 +1,4 @@
-# Comparação de arquivos de Swagger, Openapi, documentos e outros - Robson!
+# Comparação de arquivos de Swagger, Openapi, documentos e outros
 
 ## 1) Pegar informações de Swagger:
 
