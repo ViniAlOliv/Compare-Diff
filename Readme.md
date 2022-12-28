@@ -1,7 +1,7 @@
 # Comparação de arquivos JSON e outros
 
 ### Tecnologias utilizadas:
-- Git -> git init
+- Git instalado na máquina
 - Visual Studio Code
 
 ### Recursos de ajuda
