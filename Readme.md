@@ -1,57 +1,44 @@
-# Comparação de arquivos de Swagger, Openapi, documentos e outros
+# Comparação de arquivos JSON e outros
 
-## 1) Pegar informações de Swagger:
+### Tecnologias utilizadas:
+- Git -> git init
+- Visual Studio Code
 
-### 1 a) Caso eu use Swagger:
-- Ao acessar o devido Swagger, abaixo do título, você verá um link de doc para toda a API. Acesse-a e copie tudo (Ou Ctrl + A e Ctrl + C)
-- Acesse o site: https://codebeautify.org/jsonviewer
-- Cole, ao lado esquerdo, todo o objeto (Crtl + V)
-- Clique no botão 'Beautify' e, ao apresentar o resultado ao lado, clique no botão de download (logo acima ao lado de copiar)
-
-- Sendo uma comparação, faça o mesmo com o documento que queira realizar essa comparação.
-
-DICA:
-Obtenha o arquivo antes e depois da alteração, ou o de produção e o interno, que provavelmente estará mais atualizado.
+### Recursos de ajuda
+- https://codebeautify.org/jsonviewer
 
 
-### 1 b) Caso não use Swagger
-- Isso funcionará também com um texto. Copie e crie um json, yaml ou txt da melhor forma a atender você.
+## 1) Comparação de arquivos
+
+### Dúvidas
+- Podemos comparar todos os tipos de arquivos, assim como comparamos diferenças entre commits
+- Deixe os arquivos mais bem organizados possíveis, como terem o mesmo nome e uma diferença, texto ou json ser legível e etc...
 
 
-
-## 2) Como comparar os dois arquivos?
-- Instalar Visual Studio Code
-- Pegar o arquivo "Swagger - Openapi Diff" e abrí-lo no Visual Studio Code (Arquivo / Abrir Pasta e selecionar a pasta)
-- Copiar os arquivos .json ou .yaml para dentro da pasta 'Arquivos'
+## 2) Como comparar os dois arquivos deste exemplo?
 - Abrir o terminal (Terminal / Novo Terminal) no Menu superior do Visual Studio Code
+- Verificar se no terminal está apontando o local correto. Caso contrário, digite 'cd Arquivos' no terminal para acessar a pasta arquivos.
 - Verificar se o Terminal foi aberto como 'bash'****. Não pode ser PowerShell e nem Prompt*****
-- Verificar se o terminal está apontando o local correto. Caso contrário, digite 'cd Arquivos'
-
 
 
 ### 2 a) Caso eu queira apresentar a diferença no Visual Studio Code...
-- No explorador, dentro da pasta Arquivos, dê um clique com o botão direito do mouse no arquivo mais antigo e selecione 'Selecionar para comparar'
-- No mesmo local, dê um clique com o botão direito do mouse no arquivo mais novo e selecione 'Selecionar para comparar'
-
-- Ao realizar a ação acima, serão apresentadas as diferenças entre os dois arquivos no Visual Studio Code marcando em vermelho as diferenças.
+- Tenha os dois arquivos
+- Selecione o primeiro arquivo, clique com o botão direito em cima do mesmo e 'Select to compare'
+- Selecione o segundo arquivo, clique com o botão direito em cima do mesmo e 'Compare with selected'
+- Será gerado um novo arquivo comparando os dois
 
 
 ### 2 b) Caso eu queira apresentar a diferança no Terminal...
 - Devo então inserir o comando 'diff nomeDoArquivoAntigo.extensão nomeDoArquivoNovo.extensão'
-
 - Ao realizar a ação acima, teremos as diferenças apresentadas no terminal
 
 
-### 2 c) Caso queira criar um arquivo com essas diferenças
+### 2 c) Caso queira somente criar um arquivo com essas diferenças
 - Devo então inserir o comando 'diff nomeDoArquivoAntigo.extensão nomeDoArquivoNovo.extensão > nomeDoArquivo.txt'
 
 - Será criado um arquivo de mesmo nome e formato dentro da pasta Arquivos
 
-Observação: 
-- Sua formatação não será a melhor dos mundos, mas conterá todas as informações encontradas =)
-- A inclusão de um título irá te ajudar a identificar o texto ;)
 
+Espero poder te ajudar
 
-
-
-By Vini
+By Vini - 12/2022
