@@ -1,10 +1,9 @@
 # Comparação de arquivos JSON e outros
 
 ### Tecnologias utilizadas:
-- Git instalado na máquina
 - Visual Studio Code
 
-### Recursos de ajuda
+### Recursos de ajuda (Se quiser)
 - https://codebeautify.org/jsonviewer
 
 
@@ -15,13 +14,13 @@
 - Deixe os arquivos mais bem organizados possíveis, como terem o mesmo nome e uma diferença, texto ou json ser legível e etc...
 
 
-## 2) Como comparar os dois arquivos deste exemplo?
+## 2) Como comparar os dois arquivos deste exemplo pelo terminal?
 - Abrir o terminal (Terminal / Novo Terminal) no Menu superior do Visual Studio Code
 - Verificar se no terminal está apontando o local correto. Caso contrário, digite 'cd Arquivos' no terminal para acessar a pasta arquivos.
 - Verificar se o Terminal foi aberto como 'bash'****. Não pode ser PowerShell e nem Prompt*****
 
 
-### 2 a) Caso eu queira apresentar a diferença no Visual Studio Code...
+### 2 a) Caso eu queira apresentar a diferença no Visual Studio Code no mouse...
 - Tenha os dois arquivos
 - Selecione o primeiro arquivo, clique com o botão direito em cima do mesmo e 'Select to compare'
 - Selecione o segundo arquivo, clique com o botão direito em cima do mesmo e 'Compare with selected'
@@ -41,4 +40,4 @@
 
 Espero poder te ajudar
 
-By Vini - 12/2022
+By Vini - 01/2023
